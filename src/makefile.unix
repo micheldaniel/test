@@ -187,7 +187,7 @@ OBJS= \
      obj/tor_util.o \
      obj/transports.o \
      obj/util_codedigest.o \
-     obj/joincoin.o \
+     obj/LOOP.o \
     leveldb/libleveldb.a \
     obj/alert.o \
     obj/version.o \
@@ -241,10 +241,10 @@ OBJS= \
     obj/whirlpool.o \
     obj/hefty1.o
 
-all: joincoind
+all: LOOPd
 
-test check: test_joincoin FORCE
-	./test_joincoin
+test check: test_LOOP FORCE
+	./test_LOOP
 
 #
 # LevelDB support
@@ -286,7 +286,7 @@ obj/%.o: tor/%.c
 	      -e '/^$$/ d' -e 's/$$/ :/' < $(@:%.o=%.d) >> $(@:%.o=%.P); \
 	rm -f $(@:%.o=%.d)
  
-obj/%.o: tor/joincoin.cpp
+obj/%.o: tor/LOOP.cpp
 	$(CXX) -c $(xCXXFLAGS) -MMD -MF $(@:%.o=%.d) -o $@ $<
 	@cp $(@:%.o=%.d) $(@:%.o=%.P); \
 	sed -e 's/#.*//' -e 's/^[^:]*: *//' -e 's/ *\\$$//' \
@@ -294,7 +294,7 @@ obj/%.o: tor/joincoin.cpp
 	rm -f $(@:%.o=%.d)
 
       
-joincoind: $(OBJS:obj/%=obj/%)
+LOOPd: $(OBJS:obj/%=obj/%)
 	$(LINK) $(xCXXFLAGS) -o $@ $^ $(xLDFLAGS) $(LIBS)
 
 TESTOBJS := $(patsubst test/%.cpp,obj-test/%.o,$(wildcard test/*.cpp))
@@ -306,11 +306,11 @@ obj-test/%.o: test/%.cpp
 	      -e '/^$$/ d' -e 's/$$/ :/' < $(@:%.o=%.d) >> $(@:%.o=%.P); \
 	  rm -f $(@:%.o=%.d)
 
-test_joincoin: $(TESTOBJS) $(filter-out obj/init.o obj/joincoind.o,$(OBJS:obj/%=obj/%))
+test_LOOP: $(TESTOBJS) $(filter-out obj/init.o obj/LOOPd.o,$(OBJS:obj/%=obj/%))
 	$(LINK) $(xCXXFLAGS) -o $@ $(LIBPATHS) $^ $(TESTLIBS) $(xLDFLAGS) $(LIBS)
 
 clean:
-	-rm -f joincoind test_joincoin
+	-rm -f LOOPd test_LOOP
 	-rm -f obj/*.o
 	-rm -f obj-test/*.o
 	-rm -f obj/*.P

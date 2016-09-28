@@ -4,13 +4,13 @@
     <name>AboutDialog</name>
     <message>
         <location filename="../forms/aboutdialog.ui" line="+14"/>
-        <source>About Joincoin</source>
-        <translation>&amp;О Joincoin</translation>
+        <source>About LOOP</source>
+        <translation>&amp;О LOOP</translation>
     </message>
     <message>
         <location line="+39"/>
-        <source>&lt;b&gt;Joincoin&lt;/b&gt; version</source>
-        <translation>&lt;b&gt;Joincoin&lt;/b&gt; версия</translation>
+        <source>&lt;b&gt;LOOP&lt;/b&gt; version</source>
+        <translation>&lt;b&gt;LOOP&lt;/b&gt; версия</translation>
     </message>
     <message>
         <location line="+57"/>
@@ -34,8 +34,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="+0"/>
-        <source>The Joincoin developers</source>
-        <translation>Разработчики Joincoin</translation>
+        <source>The LOOP developers</source>
+        <translation>Разработчики LOOP</translation>
     </message>
 </context>
 <context>
@@ -67,7 +67,7 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location filename="../addressbookpage.cpp" line="+63"/>
-        <source>These are your Joincoin addresses for receiving payments. You may want to give a different one to each sender so you can keep track of who is paying you.</source>
+        <source>These are your LOOP addresses for receiving payments. You may want to give a different one to each sender so you can keep track of who is paying you.</source>
         <translation>Это Ваши адреса для получения платежей. Вы можете дать разные адреса отправителям, чтобы отслеживать, кто именно вам платит.</translation>
     </message>
     <message>
@@ -82,8 +82,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="+11"/>
-        <source>Sign a message to prove you own a Joincoin address</source>
-        <translation>Подписать сообщение, чтобы доказать владение адресом Joincoin</translation>
+        <source>Sign a message to prove you own a LOOP address</source>
+        <translation>Подписать сообщение, чтобы доказать владение адресом LOOP</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -107,8 +107,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="-44"/>
-        <source>Verify a message to ensure it was signed with a specified Joincoin address</source>
-        <translation>Проверить сообщение, чтобы убедиться, что оно было подписано указанным адресом Joincoin</translation>
+        <source>Verify a message to ensure it was signed with a specified LOOP address</source>
+        <translation>Проверить сообщение, чтобы убедиться, что оно было подписано указанным адресом LOOP</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -122,7 +122,7 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location filename="../addressbookpage.cpp" line="-5"/>
-        <source>These are your Joincoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <source>These are your LOOP addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
         <translation>Ваши адреса для получения средств. Совет: проверьте сумму и адрес назначения перед переводом.</translation>
     </message>
     <message>
@@ -248,7 +248,7 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="+1"/>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR JOINCOINS&lt;/b&gt;!</source>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR LOOPS&lt;/b&gt;!</source>
         <translation>Внимание: если вы зашифруете бумажник и потеряете пароль, вы &lt;b&gt;ПОТЕРЯЕТЕ ВСЕ ВАШИ БИТКОИНЫ&lt;/b&gt;!</translation>
     </message>
     <message>
@@ -275,7 +275,7 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="-56"/>
-        <source>Joincoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your joincoins from being stolen by malware infecting your computer.</source>
+        <source>LOOP will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your LOOPs from being stolen by malware infecting your computer.</source>
         <translation>Сейчас программа закроется для завершения процесса шифрования. Помните, что шифрование вашего бумажника не может полностью защитить ваши биткоины от кражи с помощью инфицирования вашего компьютера вредоносным ПО.</translation>
     </message>
     <message>
@@ -374,8 +374,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="+4"/>
-        <source>Show information about Joincoin</source>
-        <translation>Показать информацию о Joincoin&apos;е</translation>
+        <source>Show information about LOOP</source>
+        <translation>Показать информацию о LOOP&apos;е</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -419,13 +419,13 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="-347"/>
-        <source>Send coins to a Joincoin address</source>
-        <translation>Отправить монеты на указанный адрес Joincoin</translation>
+        <source>Send coins to a LOOP address</source>
+        <translation>Отправить монеты на указанный адрес LOOP</translation>
     </message>
     <message>
         <location line="+49"/>
-        <source>Modify configuration options for Joincoin</source>
-        <translation>Изменить параметры конфигурации Joincoin</translation>
+        <source>Modify configuration options for LOOP</source>
+        <translation>Изменить параметры конфигурации LOOP</translation>
     </message>
     <message>
         <location line="+9"/>
@@ -455,7 +455,7 @@ This product includes software developed by the OpenSSL Project for use in the O
     <message>
         <location line="-165"/>
         <location line="+530"/>
-        <source>Joincoin</source>
+        <source>LOOP</source>
         <translation>Биткоин</translation>
     </message>
     <message>
@@ -480,8 +480,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="+22"/>
-        <source>&amp;About Joincoin</source>
-        <translation>&amp;О Joincoin</translation>
+        <source>&amp;About LOOP</source>
+        <translation>&amp;О LOOP</translation>
     </message>
     <message>
         <location line="+9"/>
@@ -500,13 +500,13 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="+7"/>
-        <source>Sign messages with your Joincoin addresses to prove you own them</source>
-        <translation>Подписать сообщения вашим адресом Joincoin, чтобы доказать, что вы им владеете</translation>
+        <source>Sign messages with your LOOP addresses to prove you own them</source>
+        <translation>Подписать сообщения вашим адресом LOOP, чтобы доказать, что вы им владеете</translation>
     </message>
     <message>
         <location line="+2"/>
-        <source>Verify messages to ensure they were signed with specified Joincoin addresses</source>
-        <translation>Проверить сообщения, чтобы удостовериться, что они были подписаны определённым адресом Joincoin</translation>
+        <source>Verify messages to ensure they were signed with specified LOOP addresses</source>
+        <translation>Проверить сообщения, чтобы удостовериться, что они были подписаны определённым адресом LOOP</translation>
     </message>
     <message>
         <location line="+28"/>
@@ -536,12 +536,12 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="+47"/>
-        <source>Joincoin client</source>
-        <translation>Joincoin клиент</translation>
+        <source>LOOP client</source>
+        <translation>LOOP клиент</translation>
     </message>
     <message numerus="yes">
         <location line="+141"/>
-        <source>%n active connection(s) to Joincoin network</source>
+        <source>%n active connection(s) to LOOP network</source>
         <translation><numerusform>%n активное соединение с сетью</numerusform><numerusform>%n активных соединений с сетью</numerusform><numerusform>%n активных соединений с сетью</numerusform></translation>
     </message>
     <message>
@@ -656,8 +656,8 @@ Address: %4
     <message>
         <location line="-23"/>
         <location line="+23"/>
-        <source>URI can not be parsed! This can be caused by an invalid Joincoin address or malformed URI parameters.</source>
-        <translation>Не удалось обработать URI! Это может быть связано с неверным адресом Joincoin или неправильными параметрами URI.</translation>
+        <source>URI can not be parsed! This can be caused by an invalid LOOP address or malformed URI parameters.</source>
+        <translation>Не удалось обработать URI! Это может быть связано с неверным адресом LOOP или неправильными параметрами URI.</translation>
     </message>
     <message>
         <location line="+17"/>
@@ -671,8 +671,8 @@ Address: %4
     </message>
     <message>
         <location filename="../bitcoin.cpp" line="+111"/>
-        <source>A fatal error occurred. Joincoin can no longer continue safely and will quit.</source>
-        <translation>Произошла неисправимая ошибка. Joincoin не может безопасно продолжать работу и будет закрыт.</translation>
+        <source>A fatal error occurred. LOOP can no longer continue safely and will quit.</source>
+        <translation>Произошла неисправимая ошибка. LOOP не может безопасно продолжать работу и будет закрыт.</translation>
     </message>
 </context>
 <context>
@@ -737,8 +737,8 @@ Address: %4
     </message>
     <message>
         <location line="-5"/>
-        <source>The entered address &quot;%1&quot; is not a valid Joincoin address.</source>
-        <translation>Введённый адрес &quot;%1&quot; не является правильным Joincoin-адресом.</translation>
+        <source>The entered address &quot;%1&quot; is not a valid LOOP address.</source>
+        <translation>Введённый адрес &quot;%1&quot; не является правильным LOOP-адресом.</translation>
     </message>
     <message>
         <location line="+10"/>
@@ -756,8 +756,8 @@ Address: %4
     <message>
         <location filename="../guiutil.cpp" line="+424"/>
         <location line="+12"/>
-        <source>Joincoin-Qt</source>
-        <translation>Joincoin-Qt</translation>
+        <source>LOOP-Qt</source>
+        <translation>LOOP-Qt</translation>
     </message>
     <message>
         <location line="-12"/>
@@ -819,13 +819,13 @@ Address: %4
     </message>
     <message>
         <location line="+31"/>
-        <source>Automatically start Joincoin after logging in to the system.</source>
-        <translation>Автоматически запускать Joincoin после входа в систему</translation>
+        <source>Automatically start LOOP after logging in to the system.</source>
+        <translation>Автоматически запускать LOOP после входа в систему</translation>
     </message>
     <message>
         <location line="+3"/>
-        <source>&amp;Start Joincoin on system login</source>
-        <translation>&amp;Запускать Joincoin при входе в систему</translation>
+        <source>&amp;Start LOOP on system login</source>
+        <translation>&amp;Запускать LOOP при входе в систему</translation>
     </message>
     <message>
         <location line="+35"/>
@@ -844,8 +844,8 @@ Address: %4
     </message>
     <message>
         <location line="+6"/>
-        <source>Automatically open the Joincoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>Автоматически открыть порт для Joincoin-клиента на роутере. Работает только если Ваш роутер поддерживает UPnP, и данная функция включена.</translation>
+        <source>Automatically open the LOOP client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>Автоматически открыть порт для LOOP-клиента на роутере. Работает только если Ваш роутер поддерживает UPnP, и данная функция включена.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -854,8 +854,8 @@ Address: %4
     </message>
     <message>
         <location line="+7"/>
-        <source>Connect to the Joincoin network through a SOCKS proxy (e.g. when connecting through Tor).</source>
-        <translation>Подключаться к сети Joincoin через прокси SOCKS (например, при подключении через Tor).</translation>
+        <source>Connect to the LOOP network through a SOCKS proxy (e.g. when connecting through Tor).</source>
+        <translation>Подключаться к сети LOOP через прокси SOCKS (например, при подключении через Tor).</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -929,8 +929,8 @@ Address: %4
     </message>
     <message>
         <location line="+13"/>
-        <source>The user interface language can be set here. This setting will take effect after restarting Joincoin.</source>
-        <translation>Здесь можно выбрать язык интерфейса. Настройки вступят в силу после перезапуска Joincoin.</translation>
+        <source>The user interface language can be set here. This setting will take effect after restarting LOOP.</source>
+        <translation>Здесь можно выбрать язык интерфейса. Настройки вступят в силу после перезапуска LOOP.</translation>
     </message>
     <message>
         <location line="+11"/>
@@ -944,8 +944,8 @@ Address: %4
     </message>
     <message>
         <location line="+9"/>
-        <source>Whether to show Joincoin addresses in the transaction list or not.</source>
-        <translation>Показывать ли адреса Joincoin в списке транзакций.</translation>
+        <source>Whether to show LOOP addresses in the transaction list or not.</source>
+        <translation>Показывать ли адреса LOOP в списке транзакций.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -996,8 +996,8 @@ Address: %4
     <message>
         <location line="-9"/>
         <location line="+9"/>
-        <source>This setting will take effect after restarting Joincoin.</source>
-        <translation>Эта настройка вступит в силу после перезапуска Joincoin</translation>
+        <source>This setting will take effect after restarting LOOP.</source>
+        <translation>Эта настройка вступит в силу после перезапуска LOOP</translation>
     </message>
     <message>
         <location line="+29"/>
@@ -1015,8 +1015,8 @@ Address: %4
     <message>
         <location line="+50"/>
         <location line="+166"/>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Joincoin network after a connection is established, but this process has not completed yet.</source>
-        <translation>Отображаемая информация может быть устаревшей. Ваш бумажник автоматически синхронизируется с сетью Joincoin после подключения, но этот процесс пока не завершён.</translation>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the LOOP network after a connection is established, but this process has not completed yet.</source>
+        <translation>Отображаемая информация может быть устаревшей. Ваш бумажник автоматически синхронизируется с сетью LOOP после подключения, но этот процесс пока не завершён.</translation>
     </message>
     <message>
         <location line="-124"/>
@@ -1069,8 +1069,8 @@ Address: %4
     <name>PaymentServer</name>
     <message>
         <location filename="../paymentserver.cpp" line="+107"/>
-        <source>Cannot start joincoin: click-to-pay handler</source>
-        <translation>Не удаётся запустить joincoin: обработчик click-to-pay</translation>
+        <source>Cannot start LOOP: click-to-pay handler</source>
+        <translation>Не удаётся запустить LOOP: обработчик click-to-pay</translation>
     </message>
 </context>
 <context>
@@ -1219,8 +1219,8 @@ Address: %4
     </message>
     <message>
         <location line="+7"/>
-        <source>Show the Joincoin-Qt help message to get a list with possible Joincoin command-line options.</source>
-        <translation>Показать помощь по Joincoin-Qt, чтобы получить список доступных параметров командной строки.</translation>
+        <source>Show the LOOP-Qt help message to get a list with possible LOOP command-line options.</source>
+        <translation>Показать помощь по LOOP-Qt, чтобы получить список доступных параметров командной строки.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1239,13 +1239,13 @@ Address: %4
     </message>
     <message>
         <location line="-104"/>
-        <source>Joincoin - Debug window</source>
-        <translation>Joincoin - Окно отладки</translation>
+        <source>LOOP - Debug window</source>
+        <translation>LOOP - Окно отладки</translation>
     </message>
     <message>
         <location line="+25"/>
-        <source>Joincoin Core</source>
-        <translation>Ядро Joincoin</translation>
+        <source>LOOP Core</source>
+        <translation>Ядро LOOP</translation>
     </message>
     <message>
         <location line="+279"/>
@@ -1254,8 +1254,8 @@ Address: %4
     </message>
     <message>
         <location line="+7"/>
-        <source>Open the Joincoin debug log file from the current data directory. This can take a few seconds for large log files.</source>
-        <translation>Открыть отладочный лог-файл Joincoin из текущего каталога данных. Это может занять несколько секунд для больших лог-файлов.</translation>
+        <source>Open the LOOP debug log file from the current data directory. This can take a few seconds for large log files.</source>
+        <translation>Открыть отладочный лог-файл LOOP из текущего каталога данных. Это может занять несколько секунд для больших лог-файлов.</translation>
     </message>
     <message>
         <location line="+102"/>
@@ -1264,8 +1264,8 @@ Address: %4
     </message>
     <message>
         <location filename="../rpcconsole.cpp" line="-30"/>
-        <source>Welcome to the Joincoin RPC console.</source>
-        <translation>Добро пожаловать в RPC-консоль Joincoin.</translation>
+        <source>Welcome to the LOOP RPC console.</source>
+        <translation>Добро пожаловать в RPC-консоль LOOP.</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -1448,8 +1448,8 @@ Address: %4
     </message>
     <message>
         <location filename="../sendcoinsentry.cpp" line="+1"/>
-        <source>Enter a Joincoin address (e.g. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</source>
-        <translation>Введите Joincoin-адрес (например 1LA5FtQhnnWnkK6zjFfutR7Stiit4wKd63)</translation>
+        <source>Enter a LOOP address (e.g. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</source>
+        <translation>Введите LOOP-адрес (например 1LA5FtQhnnWnkK6zjFfutR7Stiit4wKd63)</translation>
     </message>
 </context>
 <context>
@@ -1513,8 +1513,8 @@ Address: %4
     </message>
     <message>
         <location line="+21"/>
-        <source>Sign the message to prove you own this Joincoin address</source>
-        <translation>Подписать сообщение, чтобы доказать владение адресом Joincoin</translation>
+        <source>Sign the message to prove you own this LOOP address</source>
+        <translation>Подписать сообщение, чтобы доказать владение адресом LOOP</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1549,8 +1549,8 @@ Address: %4
     </message>
     <message>
         <location line="+40"/>
-        <source>Verify the message to ensure it was signed with the specified Joincoin address</source>
-        <translation>Проверить сообщение, чтобы убедиться, что оно было подписано указанным адресом Joincoin</translation>
+        <source>Verify the message to ensure it was signed with the specified LOOP address</source>
+        <translation>Проверить сообщение, чтобы убедиться, что оно было подписано указанным адресом LOOP</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1565,8 +1565,8 @@ Address: %4
     <message>
         <location filename="../signverifymessagedialog.cpp" line="+27"/>
         <location line="+3"/>
-        <source>Enter a Joincoin address (e.g. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</source>
-        <translation>Введите адрес Joincoin (напр. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</translation>
+        <source>Enter a LOOP address (e.g. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</source>
+        <translation>Введите адрес LOOP (напр. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</translation>
     </message>
     <message>
         <location line="-2"/>
@@ -1575,8 +1575,8 @@ Address: %4
     </message>
     <message>
         <location line="+3"/>
-        <source>Enter Joincoin signature</source>
-        <translation>Введите подпись Joincoin</translation>
+        <source>Enter LOOP signature</source>
+        <translation>Введите подпись LOOP</translation>
     </message>
     <message>
         <location line="+82"/>
@@ -1649,8 +1649,8 @@ Address: %4
     <name>SplashScreen</name>
     <message>
         <location filename="../splashscreen.cpp" line="+25"/>
-        <source>The Joincoin developers</source>
-        <translation>Разработчики Joincoin</translation>
+        <source>The LOOP developers</source>
+        <translation>Разработчики LOOP</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -2187,7 +2187,7 @@ Address: %4
     <name>bitcoin-core</name>
     <message>
         <location filename="../bitcoinstrings.cpp" line="+94"/>
-        <source>Joincoin version</source>
+        <source>LOOP version</source>
         <translation>Версия</translation>
     </message>
     <message>
@@ -2197,8 +2197,8 @@ Address: %4
     </message>
     <message>
         <location line="-29"/>
-        <source>Send command to -server or joincoind</source>
-        <translation>Отправить команду на -server или joincoind</translation>
+        <source>Send command to -server or LOOPd</source>
+        <translation>Отправить команду на -server или LOOPd</translation>
     </message>
     <message>
         <location line="-23"/>
@@ -2218,13 +2218,13 @@ Address: %4
     </message>
     <message>
         <location line="+24"/>
-        <source>Specify configuration file (default: joincoin.conf)</source>
-        <translation>Указать конфигурационный файл (по умолчанию: joincoin.conf)</translation>
+        <source>Specify configuration file (default: LOOP.conf)</source>
+        <translation>Указать конфигурационный файл (по умолчанию: LOOP.conf)</translation>
     </message>
     <message>
         <location line="+3"/>
-        <source>Specify pid file (default: joincoind.pid)</source>
-        <translation>Задать pid-файл (по умолчанию: joincoin.pid)</translation>
+        <source>Specify pid file (default: LOOPd.pid)</source>
+        <translation>Задать pid-файл (по умолчанию: LOOP.pid)</translation>
     </message>
     <message>
         <location line="-1"/>
@@ -2301,24 +2301,24 @@ Address: %4
         <source>%s, you must set a rpcpassword in the configuration file:
 %s
 It is recommended you use the following random password:
-rpcuser=joincoinrpc
+rpcuser=LOOPrpc
 rpcpassword=%s
 (you do not need to remember this password)
 The username and password MUST NOT be the same.
 If the file does not exist, create it with owner-readable-only file permissions.
 It is also recommended to set alertnotify so you are notified of problems;
-for example: alertnotify=echo %%s | mail -s &quot;Joincoin Alert&quot; admin@foo.com
+for example: alertnotify=echo %%s | mail -s &quot;LOOP Alert&quot; admin@foo.com
 </source>
         <translation>%s, вы должны установить опцию rpcpassword в конфигурационном файле:
  %s
 Рекомендуется использовать следующий случайный пароль:
-rpcuser=joincoinrpc
+rpcuser=LOOPrpc
 rpcpassword=%s
 (вам не нужно запоминать этот пароль)
 Имя и пароль ДОЛЖНЫ различаться.
 Если файл не существует, создайте его и установите права доступа только для владельца, только для чтения.
 Также рекомендуется включить alertnotify для оповещения о проблемах;
-Например: alertnotify=echo %%s | mail -s &quot;Joincoin Alert&quot; admin@foo.com
+Например: alertnotify=echo %%s | mail -s &quot;LOOP Alert&quot; admin@foo.com
 </translation>
     </message>
     <message>
@@ -2333,8 +2333,8 @@ rpcpassword=%s
     </message>
     <message>
         <location line="+3"/>
-        <source>Cannot obtain a lock on data directory %s. Joincoin is probably already running.</source>
-        <translation>Не удаётся установить блокировку на каталог данных %s.  Возможно, Joincoin уже работает.</translation>
+        <source>Cannot obtain a lock on data directory %s. LOOP is probably already running.</source>
+        <translation>Не удаётся установить блокировку на каталог данных %s.  Возможно, LOOP уже работает.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -2378,8 +2378,8 @@ rpcpassword=%s
     </message>
     <message>
         <location line="+3"/>
-        <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong Joincoin will not work properly.</source>
-        <translation>Внимание: убедитесь, что дата и время на Вашем компьютере выставлены верно. Если Ваши часы идут неправильно, Joincoin будет работать некорректно.</translation>
+        <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong LOOP will not work properly.</source>
+        <translation>Внимание: убедитесь, что дата и время на Вашем компьютере выставлены верно. Если Ваши часы идут неправильно, LOOP будет работать некорректно.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -2628,9 +2628,9 @@ rpcpassword=%s
     </message>
     <message>
         <location line="+5"/>
-        <source>SSL options: (see the Joincoin Wiki for SSL setup instructions)</source>
+        <source>SSL options: (see the LOOP Wiki for SSL setup instructions)</source>
         <translation>
-Параметры SSL: (см. Joincoin Wiki для инструкций по настройке SSL)</translation>
+Параметры SSL: (см. LOOP Wiki для инструкций по настройке SSL)</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -2819,13 +2819,13 @@ rpcpassword=%s
     </message>
     <message>
         <location line="+1"/>
-        <source>Error loading wallet.dat: Wallet requires newer version of Joincoin</source>
-        <translation>Ошибка загрузки wallet.dat: бумажник требует более новую версию Joincoin</translation>
+        <source>Error loading wallet.dat: Wallet requires newer version of LOOP</source>
+        <translation>Ошибка загрузки wallet.dat: бумажник требует более новую версию LOOP</translation>
     </message>
     <message>
         <location line="+93"/>
-        <source>Wallet needed to be rewritten: restart Joincoin to complete</source>
-        <translation>Необходимо перезаписать бумажник, перезапустите Joincoin для завершения операции.</translation>
+        <source>Wallet needed to be rewritten: restart LOOP to complete</source>
+        <translation>Необходимо перезаписать бумажник, перезапустите LOOP для завершения операции.</translation>
     </message>
     <message>
         <location line="-95"/>
@@ -2884,8 +2884,8 @@ rpcpassword=%s
     </message>
     <message>
         <location line="-25"/>
-        <source>Unable to bind to %s on this computer. Joincoin is probably already running.</source>
-        <translation>Невозможно привязаться к %s на этом компьютере.  Возможно, Joincoin уже работает.</translation>
+        <source>Unable to bind to %s on this computer. LOOP is probably already running.</source>
+        <translation>Невозможно привязаться к %s на этом компьютере.  Возможно, LOOP уже работает.</translation>
     </message>
     <message>
         <location line="+64"/>

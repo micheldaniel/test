@@ -1,9 +1,9 @@
 /* Copyright (c) 2009-2010 Satoshi Nakamoto
    Copyright (c) 2009-2012 The Bitcoin developers
-   Copyright (c) 2013-2014 The Joincoin developers */
+   Copyright (c) 2013-2014 The LOOP developers */
 /* See LICENSE for licensing information */
 
-#include "joincoin.h"
+#include "LOOP.h"
 #include "util.h"
 
 #include <boost/filesystem.hpp>
@@ -12,7 +12,7 @@
 #include <string>
 #include <cstring>
 
-char const* joincoin_tor_data_directory(
+char const* LOOP_tor_data_directory(
 ) {
     static std::string const retrieved = (
         GetDefaultDataDir(
@@ -23,7 +23,7 @@ char const* joincoin_tor_data_directory(
     );
 }
 
-char const* joincoin_service_directory(
+char const* LOOP_service_directory(
 ) {
     static std::string const retrieved = (
         GetDefaultDataDir(

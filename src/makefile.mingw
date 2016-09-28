@@ -118,10 +118,10 @@ OBJS= \
     obj/shavite.o
 
 
-all: joincoind.exe
+all: LOOPd.exe
 
-test check: test_joincoin.exe FORCE
-	test_joincoin.exe
+test check: test_LOOP.exe FORCE
+	test_LOOP.exe
 
 #
 # LevelDB support
@@ -138,7 +138,7 @@ obj/%.o: %.cpp $(HEADERS)
 obj/%.o: %.c $(HEADERS)
 	$(CXX) -c $(CFLAGS) -fpermissive -o $@ $<
 
-joincoind.exe: $(OBJS:obj/%=obj/%)
+LOOPd.exe: $(OBJS:obj/%=obj/%)
 	$(CXX) $(CFLAGS) $(LDFLAGS) -o $@ $(LIBPATHS) $^ $(LIBS)
 
 TESTOBJS := $(patsubst test/%.cpp,obj-test/%.o,$(wildcard test/*.cpp))
@@ -146,11 +146,11 @@ TESTOBJS := $(patsubst test/%.cpp,obj-test/%.o,$(wildcard test/*.cpp))
 obj-test/%.o: test/%.cpp $(HEADERS)
 	$(CXX) -c $(TESTDEFS) $(CFLAGS) -o $@ $<
 
-test_joincoin.exe: $(TESTOBJS) $(filter-out obj/init.o obj/joincoind.o,$(OBJS:obj/%=obj/%))
+test_LOOP.exe: $(TESTOBJS) $(filter-out obj/init.o obj/LOOPd.o,$(OBJS:obj/%=obj/%))
 	$(CXX) $(CFLAGS) $(LDFLAGS) -o $@ $(LIBPATHS) $^ -lboost_unit_test_framework$(BOOST_SUFFIX) $(LIBS)
 
 clean:
-	rm -f joincoind.exe test_joincoin.exe
+	rm -f LOOPd.exe test_LOOP.exe
 	rm -f obj/*
 	rm -f obj-test/*
 	cd leveldb && $(MAKE) TARGET_OS=NATIVE_WINDOWS clean && cd ..

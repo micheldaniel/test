@@ -35,7 +35,7 @@ bool AppInit(int argc, char* argv[])
         //
         // Parameters
         //
-        // If Qt is used, parameters/joincoin.conf are parsed in qt/bitcoin.cpp's main()
+        // If Qt is used, parameters/LOOP.conf are parsed in qt/bitcoin.cpp's main()
         ParseParameters(argc, argv);
         if (!boost::filesystem::is_directory(GetDataDir(false)))
         {
@@ -46,13 +46,13 @@ bool AppInit(int argc, char* argv[])
 
         if (mapArgs.count("-?") || mapArgs.count("--help"))
         {
-            // First part of help message is specific to joincoind / RPC client
-            std::string strUsage = _("Joincoin version") + " " + FormatFullVersion() + "\n\n" +
+            // First part of help message is specific to LOOPd / RPC client
+            std::string strUsage = _("LOOP version") + " " + FormatFullVersion() + "\n\n" +
                 _("Usage:") + "\n" +
-                  "  joincoind [options]                     " + "\n" +
-                  "  joincoind [options] <command> [params]  " + _("Send command to -server or joincoind") + "\n" +
-                  "  joincoind [options] help                " + _("List commands") + "\n" +
-                  "  joincoind [options] help <command>      " + _("Get help for a command") + "\n";
+                  "  LOOPd [options]                     " + "\n" +
+                  "  LOOPd [options] <command> [params]  " + _("Send command to -server or LOOPd") + "\n" +
+                  "  LOOPd [options] help                " + _("List commands") + "\n" +
+                  "  LOOPd [options] help <command>      " + _("Get help for a command") + "\n";
 
             strUsage += "\n" + HelpMessage();
 
@@ -62,7 +62,7 @@ bool AppInit(int argc, char* argv[])
 
         // Command-line RPC
         for (int i = 1; i < argc; i++)
-            if (!IsSwitchChar(argv[i][0]) && !boost::algorithm::istarts_with(argv[i], "joincoin:"))
+            if (!IsSwitchChar(argv[i][0]) && !boost::algorithm::istarts_with(argv[i], "LOOP:"))
                 fCommandLine = true;
 
         if (fCommandLine)
@@ -129,7 +129,7 @@ int main(int argc, char* argv[])
     bool fRet = false;
     fHaveGUI = false;
 
-    // Connect joincoind signal handlers
+    // Connect LOOPd signal handlers
     noui_connect();
 
     fRet = AppInit(argc, argv);

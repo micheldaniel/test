@@ -78,10 +78,10 @@ public:
         assert(hashGenesisBlock == uint256("0x00000cb6d04806bcc087902202a7e3ed33aea51319b2c896ab4acdd112690371"));
         assert(genesis.hashMerkleRoot == uint256("0x8a489c39885ac6f5beb68d32302ad4dcfa1df3abdd6226314a10e69c7134a513"));
 
-        vSeeds.push_back(CDNSSeedData("seed1.joincoin.org", "seed1.joincoin.org"));
-        vSeeds.push_back(CDNSSeedData("seed2.joincoin.org", "seed2.joincoin.org"));
-        vSeeds.push_back(CDNSSeedData("seed3.joincoin.org", "seed3.joincoin.org"));
-        vSeeds.push_back(CDNSSeedData("seed4.joincoin.org", "seed4.joincoin.org"));
+        vSeeds.push_back(CDNSSeedData("seed1.LOOP.org", "seed1.LOOP.org"));
+        vSeeds.push_back(CDNSSeedData("seed2.LOOP.org", "seed2.LOOP.org"));
+        vSeeds.push_back(CDNSSeedData("seed3.LOOP.org", "seed3.LOOP.org"));
+        vSeeds.push_back(CDNSSeedData("seed4.LOOP.org", "seed4.LOOP.org"));
 
         base58Prefixes[PUBKEY_ADDRESS] = 43;
         base58Prefixes[SCRIPT_ADDRESS] = 9;
@@ -150,7 +150,7 @@ public:
 
         vFixedSeeds.clear();
         vSeeds.clear();
-        vSeeds.push_back(CDNSSeedData("testseed1.joincoin.org", "testseed1.joincoin.org"));
+        vSeeds.push_back(CDNSSeedData("testseed1.LOOP.org", "testseed1.LOOP.org"));
 
         base58Prefixes[PUBKEY_ADDRESS] = 88;
         base58Prefixes[SCRIPT_ADDRESS] = 188;

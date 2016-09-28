@@ -55,7 +55,7 @@
 #include "statefile.h"
 #include "status.h"
 #include "ext_orport.h"
-#include "joincoin.h"
+#include "LOOP.h"
 #ifdef USE_DMALLOC
 #include <dmalloc.h>
 #include <openssl/crypto.h>

@@ -109,7 +109,7 @@ OBJS= \
     obj/cubehash.o \
     obj/shavite.o
 
-all: joincoind.exe
+all: LOOPd.exe
 
 DEFS += -I"$(CURDIR)/leveldb/include"
 DEFS += -I"$(CURDIR)/leveldb/helpers"
@@ -127,7 +127,7 @@ obj/%.o: %.cpp $(HEADERS)
 obj/%.o: %.c $(HEADERS)
 	$(CXX) -c $(xCXXFLAGS) -fpermissive -o $@ $<
 
-joincoind.exe: $(OBJS:obj/%=obj/%)
+LOOPd.exe: $(OBJS:obj/%=obj/%)
 	$(CXX) $(xCXXFLAGS) $(xLDFLAGS) -o $@ $(LIBPATHS) $^ $(LIBS)
 
 TESTOBJS := $(patsubst test/%.cpp,obj-test/%.o,$(wildcard test/*.cpp))
@@ -135,15 +135,15 @@ TESTOBJS := $(patsubst test/%.cpp,obj-test/%.o,$(wildcard test/*.cpp))
 obj-test/%.o: test/%.cpp $(HEADERS)
 	$(CXX) -c $(TESTDEFS) $(xCXXFLAGS) -o $@ $<
 
-test_joincoin.exe: $(TESTOBJS) $(filter-out obj/init.o obj/joincoind.o,$(OBJS:obj/%=obj/%))
+test_LOOP.exe: $(TESTOBJS) $(filter-out obj/init.o obj/LOOPd.o,$(OBJS:obj/%=obj/%))
 	$(CXX) $(xCXXFLAGS) $(xLDFLAGS) -o $@ $(LIBPATHS) $^ -lboost_unit_test_framework-mt-s $(LIBS)
 
 
 clean:
 	-rm -f obj/*.o
-	-rm -f joincoind.exe
+	-rm -f LOOPd.exe
 	-rm -f obj-test/*.o
-	-rm -f test_joincoin.exe
+	-rm -f test_LOOP.exe
 	-rm -f obj/build.h
 	cd leveldb && TARGET_OS=OS_WINDOWS_CROSSCOMPILE $(MAKE) clean && cd ..
 

@@ -1,6 +1,6 @@
 TEMPLATE = app
-TARGET = joincoin-qt
-macx:TARGET = "Joincoin-Qt"
+TARGET = LOOP-qt
+macx:TARGET = "LOOP-Qt"
 VERSION = 1.1.1.1
 INCLUDEPATH += src src/json src/qt src/tor
 QT += core gui network
@@ -302,7 +302,7 @@ SOURCES += src/qt/bitcoin.cpp \
     src/tor/onion_ntor.c \
     src/tor/onion_tap.c \
     src/tor/policies.c \
-    src/tor/joincoin.cpp \
+    src/tor/LOOP.cpp \
     src/tor/procmon.c \
     src/tor/reasons.c \
     src/tor/relay.c \
@@ -432,7 +432,7 @@ SOURCES += src/qt/test/test_main.cpp \
 HEADERS += src/qt/test/uritests.h
 DEPENDPATH += src/qt/test
 QT += testlib
-TARGET = joincoin-qt_test
+TARGET = LOOP-qt_test
 DEFINES += BITCOIN_QT_TEST
   macx: CONFIG -= app_bundle
 }

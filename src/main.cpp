@@ -2,7 +2,7 @@
 // Copyright (c) 2009-2013 The Bitcoin developers
 // Copyright (c) 2013-2014 The Zetacoin developers
 // Copyright (c) 2014 The Huntercoin developers
-// Copyright (c) 2014 The Joincoin developers
+// Copyright (c) 2014 The LOOP developers
 // Distributed under the MIT/X11 software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -69,7 +69,7 @@ map<uint256, map<uint256, CDataStream*> > mapOrphanTransactionsByPrev;
 // Constant stuff for coinbase transactions we create:
 CScript COINBASE_FLAGS;
 
-const string strMessageMagic = "Joincoin Signed Message:\n";
+const string strMessageMagic = "LOOP Signed Message:\n";
 
 double dHashesPerSec = 0.0;
 int64 nHPSTimerStart = 0;
@@ -4759,7 +4759,7 @@ bool CheckWork(CBlock* pblock, CWallet& wallet, CReserveKey& reservekey)
     uint256 hashBlock = pblock->GetHash();
 
     //// debug print
-    printf("JoincoinMiner:\n");
+    printf("LOOPMiner:\n");
     printf("proof-of-work found\n  block-hash: %s\n  pow-hash: %s\n  target: %s\n", 
         hashBlock.GetHex().c_str(), 
         hashPoW.GetHex().c_str(), 
@@ -4771,7 +4771,7 @@ bool CheckWork(CBlock* pblock, CWallet& wallet, CReserveKey& reservekey)
     {
         LOCK(cs_main);
         if (pblock->hashPrevBlock != hashBestChain)
-            return error("JoincoinMiner : generated block is stale");
+            return error("LOOPMiner : generated block is stale");
 
         // Remove key from key pool
         reservekey.KeepKey();
@@ -4785,7 +4785,7 @@ bool CheckWork(CBlock* pblock, CWallet& wallet, CReserveKey& reservekey)
         // Process this block the same as if we had received it from another node
         CValidationState state;
         if (!ProcessBlock(state, NULL, pblock))
-            return error("JoincoinMiner : ProcessBlock, block not accepted");
+            return error("LOOPMiner : ProcessBlock, block not accepted");
     }
 
     return true;
@@ -5173,7 +5173,7 @@ void static GenericMiner(CWallet *pwallet, int algo)
 
 void static ThreadBitcoinMiner(CWallet *pwallet)
 {
-    printf("Joincoin miner started\n");
+    printf("LOOP miner started\n");
     SetThreadPriority(THREAD_PRIORITY_LOWEST);
     RenameThread("bitcoin-miner");
     
@@ -5225,7 +5225,7 @@ void static ThreadBitcoinMiner(CWallet *pwallet)
     }
     catch (boost::thread_interrupted)
     {
-        printf("Joincoin miner terminated\n");
+        printf("LOOP miner terminated\n");
         throw;
     }
 }
